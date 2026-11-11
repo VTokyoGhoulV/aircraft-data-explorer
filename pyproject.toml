@@ -1,7 +1,7 @@
 [project]
-name = "course-work-2"
+name = "aircraft-data-explorer"
 version = "0.1.0"
-description = ""
+description = "Aircraft data exploration using OpenSky, Nominatim and a console interface"
 authors = [
     {name = "-TokyoGhoul-",email = "0hellnomad0@gmail.com"}
 ]

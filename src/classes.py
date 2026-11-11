@@ -163,7 +163,7 @@ class Aeroplane:
         self.position_source = position_source
 
     @classmethod
-    def cast_to_object_list(cls, data: list) -> Iterator:
+    def cast_to_object_list(cls, data: dict) -> Iterator:
         """Создает список объектов Aeroplane из данных"""
         if not isinstance(data, dict) or "states" not in data:
             raise ValueError("Invalid data format: expected dict with 'states' key")
